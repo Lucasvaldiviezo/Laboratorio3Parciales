@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practica Parcial</title>
+        <link rel="stylesheet" href="./css/estiloGrilla.css"></link>
+        <script src="./js/funciones.js"></script>      
+    </head>
+    <body>
+        <div id="contAgregar" class="contenedor" >
+            <input type="button" value="X" id = "btnCerrar" class="cerrar"><br>
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" class="sinError" name="firstname">
+            <label for="flname">Apellido</label>
+            <input type="text" id="lname" class="sinError" name="lastname">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" class="sinError" name="fecha">
+            <label for="sexo">Sexo</label><br>
+            <input type="radio" id="masculino" name="gender" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="gender" value="femenino">
+            <label for="femenino">Femenino</label><br><br><br>
+            <input type="button" value="Modificar" id = "btnModificar">
+            <input type="button" value="Eliminar" id = "btnEliminar">
+        </div>
+        <div id="gifCarga" class="cargando">
+            <img src="./img/dancing.gif" alt="cargando" id="cargando" class = "fade-out">
+            <img src="./img/dancing.gif" alt="cargando2" id="cargando2" class = "fade-out">
+            <img src="./img/dancing.gif" alt="cargando3" id="cargando3" class = "fade-out">
+        </div>
+        <h2>Lista de Persona</h2>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Fecha</th>
+                    <th>Sexo</th>
+                </tr>
+            </thead>
+            <tbody id="tCuerpo">
+                
+            </tbody>
+        </table> 
+       
+    </body>
+</html>
