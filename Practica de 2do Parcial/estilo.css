@@ -1,0 +1,123 @@
+.contenedor
+{
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgb(210, 189, 243);
+    padding: 20px;
+    top: 10%;
+    left: 20%;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+th
+{
+    background-color: rgba(173, 147, 243, 0.959);
+    color: white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+th, td
+{
+    text-align: left;
+    padding: 8px;
+}
+
+.sinError
+{
+    border: 1px solid #ccc;
+}
+
+.error
+{
+    border: 1px solid red;
+}
+
+.tituloFormulario
+{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    text-shadow: -1px 0 rgb(172, 24, 24), 0 1px rgb(172, 24, 24), 1px 0 rgb(172, 24, 24), 0 -1px rgb(172, 24, 24);
+    color:rgba(0, 0, 0, 0.884);
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+input[type=number]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.selectMascota
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    background: rgb(168, 221, 245);
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+#btnGuardar
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color:rgb(114, 240, 114);
+    border-radius: 4px;
+    box-sizing: border-box;
+    left: 33% 
+}
+
+#btnModificar
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color:rgb(241, 144, 184);
+    border-radius: 4px;
+    box-sizing: border-box;
+    left: 38% 
+}
+
+#btnEliminar
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color:rgb(227, 247, 115);
+    border-radius: 4px;
+    box-sizing: border-box;
+    left: 43% 
+}
+

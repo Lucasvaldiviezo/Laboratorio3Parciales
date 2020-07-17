@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Practica 2do Parcial</title>
+    <script src="./Mascotas.js"></script> 
+    <script src="./eTipo.js"></script>
+    <script src="./Perro.js"></script>   
+    <script src="./Gato.js"></script>   
+    <script src="./Pajaro.js"></script> 
+    <script src="./funcionesHtml.js"></script> 
+    <link rel="stylesheet" href="./estilo.css"></link>
+</head>
+<body>
+    <div id="formulario" class="contenedor">
+        <div id="titulo" class="tituloFormulario">
+            <label>Formulario de Mascotas</label><br>
+        </div>
+        <label for="tipoMascota">Seleccion una Mascota:</label><br>
+        <select name="tipoDeMascota" id="tipoMascota" class="selectMascota">
+            <option value="1" selected>Perro</option>
+            <option value="2">Gato</option>
+            <option value="3">Pajaro</option>
+        </select><br><br>
+        <label for="nameM">Nombre de la Mascota:</label><br>
+        <input type="text" id="nameM" class="sinError" name="nameMascota"><br><br>
+        <div id="infoPerro">
+            <label for="raza">Raza del Perro:</label><br>
+            <input type="text" id="raza" class="sinError" name="razaPerro"><br><br>
+        </div>
+        <div id="infoGato">
+            <label for="cantVidas">Cantidad de Vidas:</label><br>
+            <input type="number" id="cantVidas" class="sinError" name="cantVidasGato" value="1" min="1" max="9"><br><br>
+        </div>
+        <div id="infoPajaro">
+            <label for="tipoPajaro">Tipo de Pajaro:</label><br>
+            <select id="tipoPajaro" name="tipoDePajaro" class="select">
+                <option value="1"selected>Loro</option>
+                <option value="2">Rapiña</option>
+            </select><br><br>
+        </div>
+        <input type="button" value="Guardar" id="btnGuardar" name="botonGuardar">  
+        <input type="button" value="Modificar" id="btnModificar" name="botonModificar">  
+        <input type="button" value="Eliminar" id="btnEliminar" name="botonEliminar">  
+    </div>
+    <div id="datosPerro">
+
+    </div>
+    <h2>Lista de Mascotas</h2>
+    <label>Filtrar:</label>
+    <input type="text" id="buscador" name="barra de busqueda"><br><br>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Atributo</th>
+                </tr>
+            </thead>
+            <tbody id="tCuerpo">
+                
+            </tbody>
+        </table>    
+</body>
+</html>
